@@ -2,9 +2,12 @@
 
 [![Build Status](https://travis-ci.org/SeanNaren/warp-ctc.svg?branch=pytorch_bindings)](https://travis-ci.org/SeanNaren/warp-ctc)
 
-MH: ESPnet downloads this from github by default, so I'm creating a
-github version that doesn't have CUDA or OPENMP, because those things
-don't exist on my Mac.
+## Why does this clone of https://github.com/jnishi/warp-ctc exist?
+
+ESPnet downloads warp-ctc from github by default.  jnishi's version assumes GPU
+and OpenMP, so it crashes the install process on my Mac, which has neither.  So this
+version is designed for people like me who are debugging ESPnet code on a laptop that has
+no GPU code, and using Apple's brain-dead openMP-lacking  compiler.
 
 #############################
 
