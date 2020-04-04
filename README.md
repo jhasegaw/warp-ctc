@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/SeanNaren/warp-ctc.svg?branch=pytorch_bindings)](https://travis-ci.org/SeanNaren/warp-ctc)
 
+MH: ESPnet downloads this from github by default, so I'm creating a
+github version that doesn't have CUDA or OPENMP, because those things
+don't exist on my Mac.
+
+#############################
+
 This is an extension onto the original repo found [here](https://github.com/baidu-research/warp-ctc).
 
 ## Installation
